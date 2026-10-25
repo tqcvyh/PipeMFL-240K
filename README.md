@@ -38,9 +38,9 @@ If you find our dataset helpful for your research, please consider citing the fo
 https://doi.org/10.57967/hf/7651
 # 2. Train #
 ## retina ##
-python retina_train.py --train-root /root//train  --val-root /root/val 
+python retina_train.py --train-root /root/train  --val-root /root/val 
 ## fasterrcnn ##
-python fasterrcnn_train.py --train-root /root/a/train --val-root /root/val 
+python fasterrcnn_train.py --train-root /root/train --val-root /root/val 
 ## yolov5, yolov8, yolo11 ##  
 python yolov8_train.py --data /root/data.yaml --workers 16 --batch 256
 ## yoloworld ## 
